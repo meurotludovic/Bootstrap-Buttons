@@ -1,0 +1,138 @@
+a { font-family: Roboto;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: white;
+}
+
+.transition-3 {
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+}
+    /***************************** Boutons dans les tons vert **********************************/
+        /* Bouton Turquoise */
+        .btn-turquoise { background: #1abc9c; border: 2px solid #1abc9c; }
+            .btn-turquoise:hover { color: #1abc9c; }
+
+        /* Bouton Emeralde */
+        .btn-emerald { background: #2ecc71; border: 2px solid #2ecc71; }
+            .btn-emerald:hover { color: #2ecc71; }
+
+        /* Bouton Green */
+        .btn-green { background: #16a085; border: 2px solid #16a085; }
+            .btn-green:hover { color: #16a085; }
+
+        /* Bouton Nephristis */
+        .btn-nephristis { background: #27ae60; border: 2px solid #27ae60; }
+            .btn-nephristis:hover { color: #27ae60; }
+    /******************************************************************************************
+
+    /***************************** Boutons dans les tons bleu **********************************/
+    /* Bouton Peter River */
+    .btn-river { background: #3498db; border: 2px solid #3498db; }
+        .btn-river:hover { color: #3498db; }
+
+    /* Bouton Peter River */
+    .btn-belize { background: #2980b9; border: 2px solid #2980b9; }
+        .btn-belize:hover { color: #2980b9; }
+
+    /* Bouton Bleu */
+    .btn-blue { background: #1153CB; border: 2px solid #1153CB; }
+        .btn-blue:hover { color: #1153CB; }
+
+    /* Bouton Bleu active */
+    .btn-blue-activ { background: #00b2ed; border: 2px solid #00b2ed; }
+        .btn-blue-activ:hover { color: #00b2ed; }
+    /******************************************************************************************
+
+    /***************************** Boutons dans les tons violet ******************************/
+    /* Bouton Amethyst */
+    .btn-amethyst { background: #a66bbe; border: 2px solid #a66bbe; }
+        .btn-amethyst:hover { color: #a66bbe; }
+
+    /* Bouton Wisteria */
+    .btn-wisteria { background: #8e44ad; border: 2px solid #8e44ad; }
+        .btn-wisteria:hover { color: #8e44ad; }
+    /******************************************************************************************
+
+    /************************* Boutons dans les tons jaune / orange ***************************/
+    /* Bouton Amethyst */
+    .btn-sun { background: #f1c40f; border: 2px solid #f1c40f; }
+        .btn-sun:hover { color: #f1c40f; }
+
+    /* Bouton Orange */
+    .btn-orange { background: #fbb040; border: 2px solid #fbb040; }
+        .btn-orange:hover { color: #fbb040; }
+
+    /* Bouton Carrot */
+    .btn-carrot { background: #e67e22; border: 2px solid #e67e22; }
+        .btn-carrot:hover { color: #e67e22; }
+
+    /* Bouton Wisteria */
+    .btn-pumpkin { background: #d35400; border: 2px solid #d35400; }
+        .btn-pumpkin:hover { color: #d35400; }
+    /******************************************************************************************
+
+    /************************* Boutons dans les tons rouge ********************************/
+    /* Bouton Alizarin */
+    .btn-alizarin { background: #e74c3c; border: 2px solid #e74c3c; }
+        .btn-alizarin:hover { color: #e74c3c; }
+
+    /* Bouton Pomegranate */
+    .btn-pomegranate { background: #c0392b; border: 2px solid #c0392b; }
+        .btn-pomegranate:hover { color: #c0392b; }
+    /*******************************************************************************************/
+
+    /******************** Boutons dans les nuances blanc / gris / noir *************************/
+    /* Bouton Clouds */
+    .btn-clouds { background: #ecf0f1; border: 2px solid #ecf0f1; }
+        .btn-clouds:hover { color: #ecf0f1; }
+
+    /* Bouton Silver */
+    .btn-silver { background: #bdc3c7; border: 2px solid #bdc3c7; }
+        .btn-silver:hover { color: #bdc3c7; }
+
+    /* Bouton Concrete */
+    .btn-concrete{ background: #95a5a6; border: 2px solid #95a5a6; }
+        .btn-concrete:hover { color: #95a5a6; }
+
+    /* Bouton Asbestos */
+    .btn-asbestos{ background: #7f8c8d; border: 2px solid #7f8c8d; }
+        .btn-asbestos:hover { color: #7f8c8d; }
+
+    /* Bouton Wet Asphalt */
+    .btn-wet-asphalt{ background: #34495e; border: 2px solid #34495e; }
+        .btn-wet-asphalt:hover { color: #34495e; }
+
+    /* Bouton Wet Asphalt */
+    .btn-midnight-blue{ background: #2c3e50; border: 2px solid #2c3e50; }
+        .btn-midnight-blue:hover { color: #2c3e50; }
+    /*******************************************************************************************/
+
+
+.btn-turquoise:hover, .btn-emerald:hover, .btn-green:hover, .btn-nephristis:hover, /* Tons Vert */
+.btn-river:hover, .btn-belize:hover, .btn-blue:hover, .btn-blue-activ:hover, /* Tons Bleu */
+.btn-amethyst:hover, .btn-wisteria:hover, /* Tons Violet */
+.btn-sun:hover, .btn-orange:hover, .btn-carrot:hover, .btn-pumpkin:hover, /* Tons Jaune / Orange */
+.btn-alizarin:hover, .btn-pomegranate:hover, /* Ton rouges */
+.btn-clouds:hover, .btn-silver:hover, .btn-concrete:hover, .btn-asbestos:hover, .btn-wet-asphalt:hover, .btn-midnight-blue:hover /* Nuances Blanc / Gris / Noir */
+{
+    background: transparent;
+}
